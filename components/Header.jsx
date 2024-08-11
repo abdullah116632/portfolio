@@ -3,6 +3,7 @@ import { Button } from "./ui/button";
 
 //components
 import Nav from "./Nav";
+import MovileNav from "./MovileNav";
 
 const Header = () => {
   return (
@@ -10,7 +11,7 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/">
           <h1 className="text-4xl font-semibold">
-            Abdullah <span className="text-accent">.</span>
+            Abdullah<span className="text-accent">.</span>
           </h1>
         </Link>
 
@@ -21,7 +22,9 @@ const Header = () => {
           </Link>
         </div>
 
-        <div className="xl:hidden">movile nav</div>
+        <div className="xl:hidden">
+          <MovileNav />
+        </div>
       </div>
     </header>
   );
