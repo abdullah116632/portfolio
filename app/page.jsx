@@ -48,3 +48,10 @@ const Home = () => {
 };
 
 export default Home;
+
+// [Erro: EINVAL: invalid argument, redlink "C:\Users\Lenevo\OneDrive\Desktop\portfolio\.next\server\app\favicon.ico/route.js"] {
+//   errno: -4071,
+//   code: 'EINVAL',
+//   syscall: 'readlink',
+//   path: ''
+// }
