@@ -7,7 +7,7 @@ import {
   FaNodeJs,
   FaReact,
 } from "react-icons/fa";
-import { SiTailwindcss, SiNextdotjs, SiRedux } from "react-icons/si";
+import { SiTailwindcss, SiNextdotjs, SiRedux, SiMongodb, SiExpress } from "react-icons/si";
 
 const about = {
   title: "About me",
@@ -117,12 +117,20 @@ const skills = {
       name: "tailwind.css",
     },
     {
+      icon: <SiExpress />,
+      name: "express.js",
+    },
+    {
+      icon: <SiMongodb />,
+      name: "mongoDb",
+    },
+    {
       icon: <FaNodeJs />,
       name: "node.js",
     },
     {
       icon: <SiRedux />,
-      name: "figma",
+      name: "redux",
     },
   ],
 };
