@@ -6,30 +6,30 @@ import Link from "next/link";
 const services = [
   {
     num: "01",
-    title: "Web Development",
+    title: "Front-end development",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas ratione nisi culpa hic eos earum, re.",
+      "I am expert in react and its ecosystem like Redux, React router, Tailwind css, Formik, axios, Next.js, Hooks etc",
     href: "",
   },
   {
     num: "02",
-    title: "UI/Ux design",
+    title: "Backend development",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas ratione nisi culpa hic eos earum, re.",
+      "I am more confident in backend development rather then frontend using node.js express and mongoDb(mongoose)",
     href: "",
   },
   {
     num: "03",
-    title: "Logo design",
+    title: "Code optimization",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas ratione nisi culpa hic eos earum, re.",
+      "I have solid understanding on vanila javascript and ES-6 feature of javascript, So I it is easy for me to optimize code to increase performence",
     href: "",
   },
   {
     num: "04",
-    title: "SEO",
+    title: "Bug fixing",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas ratione nisi culpa hic eos earum, re.",
+      "As like as optimize code I have lot of experience in bug fixing during build my projects",
     href: "",
   },
 ];

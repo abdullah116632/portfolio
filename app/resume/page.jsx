@@ -4,16 +4,15 @@ import {
   FaHtml5,
   FaCss3,
   FaJs,
-  FaFigma,
   FaNodeJs,
   FaReact,
 } from "react-icons/fa";
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import { SiTailwindcss, SiNextdotjs, SiRedux } from "react-icons/si";
 
 const about = {
   title: "About me",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla qui architecto laudantium corporis aspernatur saepe exercitationem. Ipsam sequi voluptate  sint esse voluptatum! Corporis explicabo quas voluptate.",
+    "",
   info: [
     {
       fildName: "Name",
@@ -54,37 +53,12 @@ const experiance = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla qui architecto laudantium corporis aspernatur saepe exercitationem. Ipsam sequi voluptate  sint esse voluptatum! Corpor",
+    "I am a university student and learned full-stack web development. I have finished all the techonology related to MERN stack and complete bunch of full-stack project",
   items: [
     {
-      company: "Tech solution inc.",
-      position: "Full stack Developer",
-      duration: "2022 - present",
-    },
-    {
-      company: "Web design studio.",
-      position: "Full stack Developer",
-      duration: "2020 - 2021",
-    },
-    {
-      company: "E-commerce startup",
-      position: "freelance web developer",
-      duration: "2022 - present",
-    },
-    {
-      company: "tech academy",
-      position: "tecnichian assistant",
-      duration: "2022 - present",
-    },
-    {
-      company: "Digital agency",
-      position: "UI/Ux designer",
-      duration: "2018 - 2019",
-    },
-    {
-      company: "Software developement farm",
-      position: "junior developer",
-      duration: "2022 - present",
+      company: "Full-stack project",
+      position: "Project building from scratch",
+      duration: "2023 - present",
     },
   ],
 };
@@ -93,37 +67,22 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "My education",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla qui architecto laudantium corporis aspernatur saepe exercitationem. Ipsam sequi voluptate  sint esse voluptatum! Corpor",
+    "B.Sc. in Computer Science and Engineering Patuakhali Science and Technology University | 2023 - Present Gaining strong foundational knowledge in full-stack development, including MERN stack, web development, and software engineering. Actively applying skills through personal projects and contributing to open-source communities.", 
   items: [
     {
-      institution: "online courese platform",
-      degree: "Full stack Developer",
-      duration: "2023",
-    },
-    {
-      institution: "Codecademy",
-      degree: "frontend track",
-      duration: "2022",
-    },
-    {
       institution: "Online course",
-      degree: "programming courese",
+      degree: "programming and web development",
       duration: "2021",
     },
     {
-      institution: "Tech Institute",
-      degree: "Certified web developer",
-      duration: "2022",
+      institution: "Patuakhali science & technology",
+      degree: "Computer science & engineering(CSE)",
+      duration: "2023-present",
     },
     {
-      institution: "Design School",
-      degree: "Diploma in graphic design",
-      duration: "2020",
-    },
-    {
-      institution: "Codecademy",
-      degree: "Associte degree in computer science",
-      duration: "2022",
+      institution: "Collage",
+      degree: "HSC",
+      duration: "2019-2023",
     },
   ],
 };
@@ -131,7 +90,7 @@ const education = {
 const skills = {
   title: "My skills",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla qui architecto laudantium corporis aspernatur saepe exercitationem. Ipsam sequi voluptate  sint esse voluptatum! Corpor",
+    "I am proficient in MERN stack. also learned tailwind css, redux, next js, git",
   skilllist: [
     {
       icon: <FaHtml5 />,
@@ -162,7 +121,7 @@ const skills = {
       name: "node.js",
     },
     {
-      icon: <FaFigma />,
+      icon: <SiRedux />,
       name: "figma",
     },
   ],
@@ -297,11 +256,16 @@ const Resume = () => {
             >
               <div className="flex flex-col gap-[30px]">
                 <h3 className="text-4xl font-bold">{about.title}</h3>
-                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">{about.description}</p>
+                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                  {about.description}
+                </p>
                 <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px] mx-auto xl:mx-0">
                   {about.info.map((item, index) => {
                     return (
-                      <li key={index} className="flex items-center justify-center xl:justify-start gap-4">
+                      <li
+                        key={index}
+                        className="flex items-center justify-center xl:justify-start gap-4"
+                      >
                         <span className="text-white/60">{item.fildName}</span>
                         <span className="text-xl">{item.fieldValue}</span>
                       </li>

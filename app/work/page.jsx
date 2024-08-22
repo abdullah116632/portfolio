@@ -21,41 +21,73 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 
 const projects = [
   {
-    num: "01",
-    category: "frontend",
+    num: "NUM-1",
+    category: "full-stack",
     title: "project 1",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, sunt quam laudantium quos beatae mina arum alias cum delectus porro ullam! Autem, veritatis.",
-    stack: [{ name: "HTML 5" }, { name: "Css 3" }, { name: "javascript" }],
-    image: "/assets/work/thumb1.png",
-    live: "",
-    github: "",
+      "This real-time chat application, developed by myself, offers a seamless communication experience with a range of modern features. Users can sign up, log in, and log out securely, with the added convenience of a 'Forgot Password' option that uses email verification through an OTP (One-Time Password) system for account recovery. The chat functionality is powered by Socket.io, enabling instant message delivery between users. Besides text, users can share photos and videos, enhancing the richness of their conversations. Each user can also update their profile, ensuring their information and avatar are always up-to-date.",
+    stack: [{ name: "React" }, { name: "Tailwind" }, { name: "redux" }, { name: "node.js" }, { name: "express.js" }, { name: "mongoDB" },],
+    image: "/assets/work/work1.png",
+    live: "https://textripple.netlify.app",
+    github: "https://github.com/abdullah116632/MERN-chatApp",
   },
   {
-    num: "02",
-    category: "full-stack",
+    num: "NUM-02",
+    category: "frontend",
     title: "project 2",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, sunt quam laudantium quos beatae mina arum alias cum delectus porro ullam! Autem, veritatis.",
-    stack: [{ name: "NEXT.Js" }, { name: "tailwind css" }, { name: "node js" }],
-    image: "/assets/work/thumb2.png",
+      "This is a clone of amazon created by pure html and css",
+    stack: [{ name: "HTML" }, { name: "CSS" },],
+    image: "/assets/work/work2.png",
     live: "",
-    github: "",
+    github: "https://github.com/abdullah116632/Clone-Of-Amazon",
   },
   {
-    num: "03",
+    num: "NUM-03",
     category: "frontend",
     title: "project 3",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, sunt quam laudantium quos beatae mina arum alias cum delectus porro ullam! Autem, veritatis.",
+      "This project created by html css and vanilla javascript",
     stack: [
-      { name: "next.js" },
-      { name: "tailwind css" },
+      { name: "HTML" },
+      { name: "CSS" },
       { name: "javascript" },
     ],
-    image: "/assets/work/thumb3.png",
+    image: "/assets/work/work3.png",
     live: "",
-    github: "",
+    github: "https://github.com/abdullah116632/Todo-list",
+  },
+  {
+    num: "NUM-04",
+    category: "full-stack",
+    title: "project 3",
+    description:
+      "This is a full-stack authentication practice project, It have all authentication related feature(Sign up, Login, logout, forget password, reset password, update password)",
+    stack: [
+      { name: "React.js" },
+      { name: "tailwind" },
+      { name: "javascript" },
+      { name: "express" },
+      { name: "mongoDb" },
+    ],
+    image: "/assets/work/work4.png",
+    live: "",
+    github: "https://github.com/abdullah116632/MERN-auth-app",
+  },
+  {
+    num: "NUM-05",
+    category: "frontend",
+    title: "project 3",
+    description:
+      "This is a simple calculator app created using react",
+    stack: [
+      { name: "React.js" },
+      { name: "CSS" },
+      { name: "javascript" },
+    ],
+    image: "/assets/work/work5.png",
+    live: "",
+    github: "https://github.com/abdullah116632/calculator",
   },
 ];
 
